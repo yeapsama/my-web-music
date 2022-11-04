@@ -20,11 +20,11 @@ module.exports = {
 			},
 		},
 		//解决跨域问题
-		// devServer:{
-		// 	host:"0.0.0.0",
-		// 	public:"120.239.32.147:8080",
-		// 	//代理服务器
-		// 	proxy:"http://localhost:8080"
-		// },
+		devServer:{
+			host:"0.0.0.0",
+			public:"120.239.32.147:8080",
+			//代理服务器
+			proxy:"https://yeapsama.github.io/my-web-music"
+		},
 	}
 }
