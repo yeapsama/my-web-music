@@ -24,7 +24,17 @@ module.exports = {
 			host:"0.0.0.0",
 			public:"120.239.32.147:8080",
 			//代理服务器
-			proxy:"https://yeapsama.github.io"
+      // proxy:'localhost:8080',
+			proxy:{
+        '/api':{
+          target:"120.239.32.147:8080",
+          ws:true,
+          changeOrigin:true,
+          pathRewrite:{
+            '^/api':'/'
+          }
+        }
+      }
 		},
 	}
 }
