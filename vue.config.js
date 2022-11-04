@@ -24,7 +24,7 @@ module.exports = {
 			host:"0.0.0.0",
 			public:"120.239.32.147:8080",
 			//代理服务器
-			proxy:"https://yeapsama.github.io/my-web-music"
+			proxy:"https://yeapsama.github.io"
 		},
 	}
 }

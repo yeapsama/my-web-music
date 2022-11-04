@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0e2383"],{"7e87":function(n,e,s){"use strict";s.r(e);var t=function(){var n=this,e=n.$createElement,s=n._self._c||e;return s("div",{staticClass:"songrank"},[n._v(" 排行榜 ")])},a=[],c={name:"songRank"},l=c,u=s("2877"),o=Object(u["a"])(l,t,a,!1,null,null,null);e["default"]=o.exports}}]);
+//# sourceMappingURL=chunk-2d0e2383.12f7a4e5.js.map
