@@ -1,4 +1,7 @@
 module.exports = {
+  assetsDir:'static',
+  // parallel:false,
+  publicPath:'./',
 	//忽略报错
 	lintOnSave: false,
 	configureWebpack: {
